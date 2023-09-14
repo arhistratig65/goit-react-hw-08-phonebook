@@ -1,0 +1,18 @@
+
+.FilterLabel {
+  /* display: flex; */
+  font-weight: bold;
+  /* justify-content: start; */
+  /* align-items: center; */
+  /* background-color: bisque; */
+  /* margin-right: 10px; */
+  padding: 5px 20px 2px;
+  color: blue;
+}
+
+.FilterInput {
+  height: 28px;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding-left: 10px;
+}

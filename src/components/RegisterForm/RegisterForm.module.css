@@ -1,0 +1,43 @@
+
+.FormWrap {
+  width: 260px;
+  margin-top: 60px;
+  padding-left: 30px;
+}
+
+
+.Label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.Input {
+  margin-top: 8px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+
+.BtnContact {
+  display: block;
+  background-color: rgb(200, 160, 255);
+  font-weight: 600;
+  padding: 6px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #777;
+  
+}
+
+.BtnContact:hover {
+  background-color: rgb(180, 130, 255);
+}
+
+.BtnContact:active {
+  box-shadow: 0 0 0 #777;
+  transform: translate(2px, 2px);
+}

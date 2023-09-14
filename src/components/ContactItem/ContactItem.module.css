@@ -1,0 +1,32 @@
+
+
+.ContactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(255, 228, 176); */
+  /* background-color: rgba(255, 227, 176, 0.3); */
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ContactItem:nth-child(2n+1) {
+  /* background-color: rgb(255, 208, 196); */
+  background-color: rgba(255, 208, 196, 0.3);
+}
+
+
+.ButtonItem {
+  /* outline: none; */
+  /* border: none; */
+  /* background-color: inherit; */
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.ButtonItem:hover {
+  cursor: pointer;
+  color: red;
+  background-color: #cfb9b9;
+}

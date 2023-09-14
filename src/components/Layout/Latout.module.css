@@ -1,0 +1,27 @@
+
+
+.HeaderWrap {
+
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  /* border: 1px solid black; */
+  padding-right: 20px;
+  /* background-color: bisque; */
+  /* background-color:goldenrod; */
+}
+
+.HeaderList {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.HeaderItem {
+  margin-right: 30px;
+  
+}

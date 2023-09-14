@@ -7,12 +7,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #afafaf;
-  max-width: 1024px;
-  margin: 0 auto;
+  background-image: url('./img/bc-book6.jpg');
+  background-size: cover;
+  /* background-size: 500px 500px; */
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 50px 10px #000;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 50px;
+}
+
+/* .container {
+  max-width: 900px;
+  width: 100%;
+  background-color: #f1ca8f;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+} */
